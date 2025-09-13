@@ -2,7 +2,11 @@
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        main: '#174880', // твой кастомный цвет
+      },
+    },
   },
   plugins: [],
 }
