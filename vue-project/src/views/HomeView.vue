@@ -1,11 +1,10 @@
 <template>
-    <div class="">
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the main landing page of the application.</p>
-    </div>
+  <div class="flex flex-col min-h-screen">
+    <h1>bu home view</h1>
+  </div>
 </template>
 
 <script setup>
-
-
+import Navbar from '@/components/NavbarComponent.vue'
+import FooterCustom from '@/components/FooterComponent.vue'
 </script>
