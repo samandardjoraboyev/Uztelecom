@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        main: '#174880', // твой кастомный цвет
+        main: '#174880',
       },
     },
   },
